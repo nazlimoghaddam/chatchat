@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                       // Modern JavaScript version
+    "module": "commonjs",                     // Module system
+    "jsx": "react-jsx",                       // Enable React JSX support
+    "rootDir": "./src",                       // Root directory for source files
+    "outDir": "./dist",                       // Output directory for compiled files
+    "strict": true,                           // Enable strict type-checking
+    "esModuleInterop": true,                  // Improve compatibility with CommonJS
+    "skipLibCheck": true,                     // Skip type checks on declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent casing in imports
+    "moduleResolution": "node",               // Use Node.js module resolution
+    "sourceMap": true,                        // Generate source maps
+    "resolveJsonModule": true,                // Allow importing JSON files
+    "lib": ["DOM", "DOM.Iterable", "ES2020"]  // Include libraries for modern web development
+  },
+  "include": ["src"],                         // Include files in the `src` directory
+  "exclude": ["node_modules"]                 // Exclude the `node_modules` directory
+}
+
+
